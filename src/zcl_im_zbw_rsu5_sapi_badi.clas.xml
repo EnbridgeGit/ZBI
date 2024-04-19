@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM_ZBW_RSU5_SAPI_BADI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Imp. class for BAdI imp. ZZBW_RSU5_SAPI_BADI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Data (Account Level)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Data (Item Level)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Data (Schedule Line Level)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Movements</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Invoicing Datasource</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MATERIAL_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Text Datasource</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Plant Master data.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FIGL Document Header Enhancements</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AUD_ACTION</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Interface for Business Add-Ins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUD_AUDIT</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Interface for Business Add-Ins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUD_QUEST_ATTR</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Interface for Business Add-Ins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Interface for Business Add-Ins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ACC</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_ITM</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_02_SCL</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_03_BF</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LIS_06_INV</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MATERIAL_TEXT</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Interface for Business Add-Ins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PLANT_ATTR</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <SCONAME>C_T_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extracted Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <SCONAME>C_T_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Error log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <SCONAME>I_T_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <SCONAME>I_T_SELECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested Selection Conditions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ZFIGL_BKPF_PARK</CMPNAME>
+     <SCONAME>I_UPDMODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Mode (Full, Delta)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
